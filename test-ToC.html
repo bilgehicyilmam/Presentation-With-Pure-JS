@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testtoc</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="actions">
+        <button onclick="backButtonClicked()" class="button mr" id="back-button" disabled>
+            Back
+        </button>
+        <button class="button mr" onclick="prevButtonClicked()">
+            Prev
+        </button>
+        <button onclick="toggleContents()" class="button mr" id="contents-button">
+            ToC
+            <div id="navigation" class="hidden"></div>
+        </button>
+        <button class="button" onclick="nextButtonClicked()">
+            Next
+        </button>
+    </div>
+    <iframe id="content" width="100%"></iframe>
+</div>
+</body>
+
+<script src="courseStructure.js"></script>
+<script src="./src/utils.js"></script>
+<script src="./src/main.js"></script>
+<script src="src/test-ToC.js"></script>
+
+</html>
