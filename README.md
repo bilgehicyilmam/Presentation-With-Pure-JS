@@ -1,4 +1,4 @@
-# Presentations-With-JS
+# Presentation With Pure Javascript
 
 # Description
 
